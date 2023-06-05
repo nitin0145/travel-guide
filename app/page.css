@@ -1,0 +1,23 @@
+.heroSection{
+    @apply h-[500px];
+    background: linear-gradient(to right,rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('asset/images/homeBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home_bigText{
+    @apply xl:text-9xl lg:text-8xl md:text-7xl text-6xl font-mono font-bold text-center md:mt-10 mt-44  text-white;
+}
+
+.hightlightCard{
+    @apply border-2 border-gray-400 rounded-lg p-3
+}
+
+.categorySection{
+    @apply bg-teal-50
+}
+
+.sidebarContainer{
+    @apply bg-white fixed top-0 right-0 h-screen w-2/3 shadow-md;
+}
